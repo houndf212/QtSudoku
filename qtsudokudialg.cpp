@@ -1,4 +1,4 @@
-#include "qtsudokudialg.h"
+﻿#include "qtsudokudialg.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QKeyEvent>

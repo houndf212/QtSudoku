@@ -1,4 +1,4 @@
-#include "qtsudoku.h"
+ï»¿#include "qtsudoku.h"
 #include <QPainter>
 #include <QLine>
 #include <QRect>
@@ -69,12 +69,12 @@ void QtSudoku::paintEvent(QPaintEvent* e)
     draw_curpos(&painter);
     draw_grid(&painter);
     //curtransform = painter.worldTransform(); //same as transform()
-    //curtransform = painter.transform(); //²»ĞĞ
+    //curtransform = painter.transform(); //ä¸è¡Œ
     assert(painter.worldTransform() == painter.transform());
     //curtransform = painter.combinedTransform().inverted(); //very nice
     curtrans_r = painter.combinedTransform();
     curtransform = curtrans_r.inverted();
-    //curtransform = painter.deviceTransform().inverted(); //²»×¼
+    //curtransform = painter.deviceTransform().inverted(); //ä¸å‡†
 }
 
 
@@ -114,7 +114,7 @@ void QtSudoku::changepos(const Pos& p)
     if (curpos.x == p.x && curpos.y == p.y)
     { return; }
 
-    //ÓÉÓÚ±ä»»¿ÉÄÜ³¬³ö±ß½ç£¬ËùÒÔ¼ÓÉÏ±£»¤
+    //ç”±äºå˜æ¢å¯èƒ½è¶…å‡ºè¾¹ç•Œï¼Œæ‰€ä»¥åŠ ä¸Šä¿æŠ¤
     if (!(0 <= p.x && p.x < 9 && 0 <= p.y && p.y < 9))
     { return; }
 

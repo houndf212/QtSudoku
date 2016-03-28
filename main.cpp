@@ -1,4 +1,4 @@
-#include "sudoku.h"
+﻿#include "sudoku.h"
 #include <stdlib.h>
 #include "qtsudoku.h"
 #include <QApplication>

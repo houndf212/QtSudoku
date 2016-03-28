@@ -1,4 +1,4 @@
-#ifndef QTSUDOKU_H
+﻿#ifndef QTSUDOKU_H
 #define QTSUDOKU_H
 
 #include <QWidget>
