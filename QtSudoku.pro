@@ -1,12 +1,19 @@
 QT += widgets
+CONFIG += c++11
 
 TEMPLATE      = app
 HEADERS += \
     sudoku.h \
     qtsudoku.h \
-    qtsudokudialg.h
+    qtsudokudialg.h \
+    matrix.h \
+    defines.h \
+    checker.h
 SOURCES += \
     sudoku.cc \
     main.cpp \
     qtsudoku.cpp \
-    qtsudokudialg.cpp
+    qtsudokudialg.cpp \
+    matrix.cpp \
+    defines.cpp \
+    checker.cpp
