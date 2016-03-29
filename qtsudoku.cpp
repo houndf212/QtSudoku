@@ -53,7 +53,7 @@ void QtSudoku::Reset()
     sudoku.Clear();
     update();
 }
-void QtSudoku::paintEvent(QPaintEvent* e)
+void QtSudoku::paintEvent(QPaintEvent* )
 {
     QPainter painter(this);
 

@@ -2,8 +2,9 @@
 #define QTSUDOKU_H
 
 #include <QWidget>
-#include "sudoku.h"
 #include <QColor>
+#include "sudoku.h"
+
 struct Pos
 {
     int x;
